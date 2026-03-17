@@ -100,6 +100,49 @@ int main() {
 
      superpoder1 = populacao1 + area1 + pib1 + pontosturisticos1 + densidadePopulacional1 + pibPerCapita1 + (1 / densidadePopulacional1);
 
+     // Area para estruturas de decisao
+
+     if(populacao1 > populacao2) {
+      printf("Carta 1 venceu no atributo populacao!\n");
+     }else {
+      printf("Carta 2 venceu no atributo populacao!\n");
+     }
+   
+     if(area1 > area2) {
+      printf("Carta 1 venceu no atributo area!\n");
+     }else {
+      printf("Carta 2 venceu no atributo area!\n");
+     }
+
+     if(pib1 > pib2) {
+      printf("Carta 1 venceu no atributo pib!\n");
+     }else {
+      printf("Carta 2 venceu no atributo pib!\n");
+     }
+
+     if(pontosturisticos1 > pontosturisticos2) {
+      printf("Carta 1 venceu no atributo Pontos turisticos!\n");
+     }else {
+      printf("Carta 2 venceu no atributo Pontos turisticos!\n");
+     }
+
+     if(densidadePopulacional1 < densidadePopulacional2) {
+      printf("Carta 1 venceu no atributo Densidade populacional!\n");
+     }else {
+      printf("Carta 2 venceu no atributo Densidade populacional!\n");
+     }
+
+     if(pibPerCapita1 < pibPerCapita2) {
+      printf("Carta 1 venceu no atributo pibPerCapita!\n");
+     }else {
+      printf("Carta 2 venceu no atributo pibPerCapita!\n");
+     }
+
+     if(SuperPoder1 < SuperPoder2) {
+      printf("Carta 1 venceu no atributo Super Poder!\n");
+     }else {
+      printf("Carta 2 venceu no atributo Super Poder!\n");
+     }
 
   // Área para exibição dos dados da cidade
       printf("\n estado: %c ", estado1);
